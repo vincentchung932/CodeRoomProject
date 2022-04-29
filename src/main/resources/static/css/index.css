@@ -1,0 +1,169 @@
+*{
+	font-family: "Lucida Console", "Courier New", monospace;
+	box-sizing:border-box;
+}
+
+.coderoom_icon{
+    height: 40px;
+}
+
+body {
+    background-color: #333;
+   
+}
+
+.mynav{
+	position:fixed;
+	width:100%
+}
+
+.middle-nav{
+	width:800px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_div{
+    width: 100%;
+    height: 800px;   
+    background: linear-gradient(to top, rgba(51,51,51,1) 1%, rgba(255, 255, 255, 0)),url("/img/Binary-Code-Background-Wallpapers-23011.jpg");
+    color:white;
+}
+
+.main_inner{
+    width: 800px;
+    margin:auto;
+	padding-top:190px;
+}
+
+.main_inner h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.bottom_p{
+	text-align: center;
+    color: rgb(228, 228, 228);
+}
+.main_div2{
+	position:relative;
+	width:80%;
+	min-height:400px;
+	background-color:#333;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	overflow:hidden;
+	margin: 0 auto;
+	padding-bottom:100px;
+}
+
+
+.middle_div{
+	background-color:#333;
+	display:flex;
+	justify-content:center;
+	padding-top:100px;
+	margin-bottom:-10;
+	
+}
+
+.middle_div h2{
+	color:white;
+}
+
+ .swiper-container {
+    width: 32%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 60px;
+    height:80px;
+    overflow:hidden;  
+}
+
+.myicon{
+	position:relative;
+	bottom:65px;
+	left:10px;
+	height: 110px;
+	width:110px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin:10px;
+	border:4px white solid;
+}
+
+.user-card{
+	background-color:#adadad;
+	height:240px;
+	border-radius:10px;
+	overflow:hidden; 
+}
+
+.upper-card{
+	background-color:#1f1f1f;
+	height:65px;
+}
+
+.lower-card{
+	background-color:white;
+	height:175px;
+	display:flex;
+}
+
+
+.jobtitle{
+	position:relative;
+	left:145px;
+	top:40px;
+	color:white;
+}
+
+.card_info{
+	height:100%;
+	width:100%;
+
+	padding-left:18px;
+}
+
+.card_info p{
+	margin-right:15px;
+}
+
+.bottom_div{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	background-color:#1f1f1f;
+	
+}
+.last{
+width:100%;
+	display:flex;
+	justify-content:center;
+	background-color:#1f1f1f;	
+}
+.bottom_subdiv{
+	margin:150px;
+	margin-top:80px;
+	margin-bottom:120px;
+}
+
+
+.bottom_subdiv h4{
+	color:white;
+	margin-bottom:15px;
+}
+
+.bottom_subdiv p{
+	color:#adadad;
+	margin-bottom:10px;
+}
+
+
