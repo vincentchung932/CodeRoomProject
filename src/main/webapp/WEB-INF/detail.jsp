@@ -117,7 +117,7 @@
 			lineNumbers:true,
 			lint:true,
 			autoCloseTags : true,
-			mode:"javascript"
+			mode:"python"
 		});
 		editor.setSize("100%","400");
 		
@@ -140,6 +140,7 @@
 			let prompt = code + " \\n " + " Calculate the time complexity of this function is"
 			
 			let data2 = {prompt:prompt}
+			document.getElementById("time-text").value= "loading..."
 			console.log(data2)
 			fetch(url,{
 				body:JSON.stringify(data2),
@@ -167,6 +168,7 @@
 			let prompt = code + " \\n ---- \\n" + " Here's what the above code is doing: 1."
 			
 			let data2 = {prompt:prompt}
+			document.getElementById("anno-text").value= "loading..."
 			console.log(data2)
 			fetch(url,{
 				body:JSON.stringify(data2),

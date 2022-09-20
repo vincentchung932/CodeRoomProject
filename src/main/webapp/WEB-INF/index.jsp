@@ -46,7 +46,7 @@
 	<div class="main_inner">
 		<h1>CodeRoom</h1>
 		<br/>
-		<h3>When Coding Meet AI</h3>
+		<h3>When Coding Meets AI</h3>
 		<p>CodeRoom is an online code editor with time complexity calculator and auto-annotation. You can also create Rooms to storage your code. Or you are able to generate code by AI. your Happy Coding!
 		<br/><br/>
 		<a class="navbar-brand" href="/dashboard"><button type="button" class="btn btn-outline-secondary">Login</button> </a>
@@ -96,7 +96,7 @@
 		         	<div class="card_info">
 		         		<h6 class="name">Guido van Rossum</h6>
 		         		<br/>
-		         		<p>I love the annotation function, it let me understand others code in a short time.</p>
+		         		<p>I love the annotation function, it let me understand others' code in a short time.</p>
 		         	</div>
         			
         		</div>
