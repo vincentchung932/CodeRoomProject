@@ -47,7 +47,8 @@
 		<h1>CodeRoom</h1>
 		<br/>
 		<h3>When Coding Meets AI</h3>
-		<p>CodeRoom is an online code editor with time complexity calculator and auto-annotation. You can also create Rooms to storage your code. Or you are able to generate code by AI. your Happy Coding!
+		<p>CodeRoom is an online code storage place with time complexity calculator and auto-annotation. CodeRoom allowed users to create their code just using some simple word.Have fun with the new 
+experience code. Happy Coding!
 		<br/><br/>
 		<a class="navbar-brand" href="/dashboard"><button type="button" class="btn btn-outline-secondary">Login</button> </a>
 	</div>
