@@ -5,13 +5,30 @@ CodeRoom is a online code storage project built with Spring. With OpenAI, CodeRo
 
 ![index](./screenshot/index_screenshot.JPG)
 
+![page0](./screenshot/page0_screenshot.JPG)
+
+![page1](./screenshot/page1_screenshot.JPG)
+
+
 ## Built with
 
-CodeRoom is built in Spring Tool Suite with a MySQL database. OpenAI API is applied in this porject to code translation and time complexity calculation. CodeMirror is also used as a code editor package which allow user to edit multiple languages in the CodeRoom.
+CodeRoom is built in Spring with a MySQL database. OpenAI API is applied in this porject to code translation and time complexity calculation. The server ran OpenAI API is built seperately in Node.js.
 
-* [Spring Tool Suite](https://spring.io/tools)
+CodeMirror is also used as a code editor package which allow user to edit multiple languages in the CodeRoom.
+
+
+* [Spring](https://spring.io/tools)
+* [Node.js](https://nodejs.org/en/)
 * [MySQL](https://www.mysql.com/)
+* [Express](https://expressjs.com/)
 * [OpenAI](https://openai.com/api/)
 * [CodeMirror](https://codemirror.net/)
 * [Bootstrap](https://getbootstrap.com/)
 
+## How to use
+[Spring](https://spring.io/tools) and [Node.js](https://nodejs.org/en/) are needed to open the project. After installing both programs, start the OopenAI API server in node with
+```
+cd server
+nodemon server.js
+````
+In Spring Tool suite, install dependencies and start the application.
