@@ -26,9 +26,10 @@ CodeMirror is also used as a code editor package which allow user to edit multip
 * [Bootstrap](https://getbootstrap.com/)
 
 ## How to use
-[Spring](https://spring.io/tools) and [Node.js](https://nodejs.org/en/) are needed to open the project. After installing both programs, start the OopenAI API server in node with
+[Spring](https://spring.io/tools) and [Node.js](https://nodejs.org/en/) are needed to open the project. For the OpenAI API, the api key can be applied through [OpenAI](https://openai.com/api/), update the variable OPENAI_API_KEY in openai.controller.js. 
+Start the OpenAI API server in Node with
 ```
 cd server
 nodemon server.js
 ````
-In Spring Tool suite, install dependencies and start the application.
+In Spring Tool suite, install dependencies and start the full stack application.
