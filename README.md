@@ -1,7 +1,7 @@
 # CodeRoom
 
 ## About
-CodeRoom is a online code storage project built with Spring. With OpenAI, CodeRoom allowed users to create their code just using some simple word. In addition, auto-annotation and time complexity calculator are also included in the project.
+CodeRoom is a online code storage project built with Spring. With OpenAI, CodeRoom allowed users to create their code just using some simple words. In addition, auto-annotation and time complexity calculator built by AI are also included in the project.
 
 ![index](./screenshot/index_screenshot.JPG)
 
@@ -12,7 +12,7 @@ CodeRoom is a online code storage project built with Spring. With OpenAI, CodeRo
 
 ## Built with
 
-CodeRoom is built in Spring with a MySQL database. OpenAI API is applied in this porject to code translation and time complexity calculation. The server ran OpenAI API is built seperately in Node.js.
+CodeRoom is built in Spring with a MySQL database. OpenAI API is applied in this porject for code translation and time complexity calculation. The server ran with OpenAI API is built seperately in Node.js which can be used in another project.
 
 CodeMirror is also used as a code editor package which allow user to edit multiple languages in the CodeRoom.
 
