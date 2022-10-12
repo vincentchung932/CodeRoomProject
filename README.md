@@ -12,7 +12,7 @@ CodeRoom is a online code storage project built with Spring. With OpenAI, CodeRo
 
 ## Built with
 
-CodeRoom is built in Spring with a MySQL database. OpenAI API is applied in this porject for code translation and time complexity calculation. The server ran with OpenAI API is built seperately in Node.js which can be used in another project.
+CodeRoom is built in Spring with a MySQL database. OpenAI API is applied in this project for code translation and time complexity calculation. The server ran with OpenAI API is built seperately in Node.js which can be used in another project.
 
 CodeMirror is also used as a code editor package which allow user to edit multiple languages in the CodeRoom.
 
